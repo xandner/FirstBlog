@@ -18,7 +18,7 @@ def hello_world():
     return 'Hello World!'
 
 
-from mid_admin import admin
+from mod_admin import admin
 
 app.register_blueprint(admin)
 app.register_blueprint(users)
